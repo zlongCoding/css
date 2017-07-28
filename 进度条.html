@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.panel-body{
+			padding: 30px 30px;
+		}
+		.example {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.example:after, .example:before {
+			display: table;
+			content: " ";
+		}
+		.panel .row {
+			margin: 0px;
+			display: block;
+		}
+		.pearl {
+			position: relative;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+		}
+		.col-xs-4 {			width: 33.33333333%;
+			float: left;
+		}
+		* {
+			-webkit-box-sizing: border-box; 
+			-moz-box-sizing: border-box;
+			box-sizing: border-box; 
+		}
+		.pearl.current:after, .pearl.current:before {
+			background-color: #62a8ea;
+		}
+		.pearl:before {
+			left: 0;
+		}
+		.pearl:first-child:before, .pearl:last-child:after {
+			display: none!important;
+		}
+		.pearl:after, .pearl:before {
+			position: absolute;
+			top: 18px;
+			z-index: 0;
+			width: 50%;
+			height: 4px;
+			content: "";
+			background-color: #f3f7f9;
+		}
+		.pearl.current:after, .pearl.current:before {
+			background-color: #62a8ea;
+		}
+		.pearl:after, .pearl:before {
+			position: absolute;
+			top: 18px;
+			z-index: 0;
+			width: 50%;
+			height: 4px;
+			content: "";
+			background-color: #f3f7f9;
+		}
+		a, a:hover, a:focus {
+			text-decoration: none;
+			outline: none;
+		}
+		a {
+			background-color: transparent;
+		}
+		.pearl.current .pearl-icon, .pearl.current .pearl-number {
+			color: #62a8ea;
+			background-color: #fff;
+			border-color: #62a8ea;
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			-o-transform: scale(1.3);
+			transform: scale(1.3);
+		}
+		.pearl-icon {
+			position: relative;
+			z-index: 1;
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			line-height: 32px;
+			color: #fff;
+			text-align: center;
+			background: #ccd5db;
+			border: 2px solid #ccd5db;
+			border-radius: 50%;
+		}
+		.pearl-icon {
+			font-size: 18px;
+		}
+		.pearl-title {
+			display: block;
+			margin-top: .5em;
+			margin-bottom: 0;
+			overflow: hidden;
+			font-size: 16px;
+			color: #526069;
+			text-overflow: ellipsis;
+			word-wrap: normal;
+			white-space: nowrap;
+		}
+	</style>
+</head>
+<body>
+	<div class="panel-body">
+		<div id="ordercategory" class="example">
+			<div class="pearls row">
+				<div class="pearl current col-xs-4">
+					<a href="#"><div class="pearl-icon"><i class="icon wb-shopping-cart" aria-hidden="true"></i></div>
+						<span class="pearl-title">选择产品</span></a>
+					</div>
+					<div class="pearl  col-xs-4">
+						<a href="#"><div class="pearl-icon"><i class="icon wb-payment" aria-hidden="true"></i></div>
+							<span class="pearl-title">账单项目</span></a>
+						</div>
+						<div class="pearl  col-xs-4">
+							<a href="#"><div class="pearl-icon"><i class="icon wb-check" aria-hidden="true"></i></div>
+								<span class="pearl-title">订单确认</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</body>
+			</html>
