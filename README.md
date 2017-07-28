@@ -4,3 +4,5 @@
 
 ## 效果如图
 ![all  triangle](img/1.png)
+
+> 也就是兼容IE8的三角
