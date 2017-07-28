@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .caret {
+            position: relative;
+        }
+
+        .caret:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-top: 50px solid #ff0000;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+
+        .caret:after {
+            content: '';
+            position: absolute;
+            left: 1px;
+            top: 0;
+            border-top: 49px solid #FFF;
+            border-left: 49px solid transparent;
+            border-right: 49px solid transparent;
+        }
+        .caretTop{
+            position: relative;
+        }
+        .caretTop:before{
+            content: '';
+            position: absolute;
+            top:0;
+            left: 0;
+            border-bottom:50px solid #ff0000;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+        .caretTop:after{
+            content: '';
+            position: absolute;
+            top:1px;
+            left: 1px;
+            border-bottom: 49px solid #fff;
+            border-left: 49px solid transparent;
+            border-right: 49px solid transparent;
+        }
+        .caretLeft {
+            position: relative;
+
+        }
+
+        .caretLeft:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-left: 50px solid #ff0000;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+        }
+
+        .caretLeft:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 1px;
+            border-left: 49px solid #fff;
+            border-top: 49px solid transparent;
+            border-bottom: 49px solid transparent;
+        }
+        .caretRight{
+            position: relative;
+        }
+
+        .caretRight:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-right: 50px solid #ff0000;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+        }
+
+        .caretRight:after {
+            content: '';
+            position: absolute;
+            left: 1px;
+            top: 1px;
+            border-right: 49px solid #fff;
+            border-top: 49px solid transparent;
+            border-bottom: 49px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <p>下三角</p>
+    <div class="caret"></div>
+    <p style="margin-top: 100px">上三角</p>
+    <div class="caretTop"></div>
+    <p style="margin-top: 100px">右三角</p>
+    <div class="caretLeft"></div>
+    <p style="margin-top: 150px">左三角</p>
+    <div class="caretRight"></div>
+</body>
+</html>
