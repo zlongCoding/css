@@ -1,5 +1,5 @@
 
-### 移动端css库 基于原生js
+### webcss库 基于原生js
 此库包含两部分
 ```
 第一部分是css样式库
@@ -8,29 +8,42 @@
 ```
 .
 └── example
-    ├── Cards  卡片
-    ├── actions  操作表 
-    ├── alert  弹框
-    ├── bar  标题栏
-    ├── button  按钮
-    ├── calendar  日历 
-    ├── datetimePicker  时间选择器
-    ├── flex  flex布局
-    ├── form  form表单
-    ├── iconfont 字体（css画出来的）
-    ├── infinite-scroll  无线滚动
-    ├── input  input框
-    ├── loading  loading加载
-    ├── picker  select选择框
-    ├── popup  Html内容的弹出窗口
-    ├── preloader  加载指示器
+    ├── backTop  返回顶部
+    ├── divider  分割线
+    ├── popconfirm  确认框
+    ├── loading  loading
     ├── progress  进度条
-    ├── refresh  刷新
-    ├── scroller  滚动
-    ├── search  搜索
-    ├── slider  轮播图
-    ├── lazyLoad  懒加载
-    ├── tab  tab
+    ├── notification  提醒框
+    ├── dialog  对话框
+    ├── alert  提示框
+    ├── tabs  标签页
+    ├── table  table
+    ├── tree  树状结构
+    ├── tooltip  文字提示
+    ├── timeline  时间轴
+    ├── collapse  折叠面板
+    ├── list  列表
+    ├── tag  标签
+    ├── card  卡片
+    ├── calendar  日历
+    ├── badge  提示消息
+    ├── upload  上传
+    ├── transfer  穿梭框
+    ├── timePicker  时间选择器
+    ├── flex  flex布局
+    ├── tbreadcrumbag  面包屑
+    ├── dropdown  下拉菜单
+    ├── menu  导航菜单
+    ├── pagination  分页
+    ├── steps  步骤页
+    ├── pagination  分页
+    ├── cascader  级联选择
+    ├── pagination  分页
+    ├── input  input框
+    ├── datePicker  日期选择
+    ├── form  form表单
+    ├── checkbox  checkbox
+    ├── slider  滑块
     └── toast  提示
 ```
 
