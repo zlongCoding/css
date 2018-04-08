@@ -20,6 +20,7 @@
     ├── iconfont 字体（css画出来的）
     ├── infinite-scroll  无线滚动
     ├── input  input框
+    ├── loading  loading加载
     ├── picker  select选择框
     ├── popup  Html内容的弹出窗口
     ├── preloader  加载指示器
@@ -27,6 +28,8 @@
     ├── refresh  刷新
     ├── scroller  滚动
     ├── search  搜索
+    ├── slider  轮播图
+    ├── lazyLoad  懒加载
     ├── tab  tab
     └── toast  提示
 ```
